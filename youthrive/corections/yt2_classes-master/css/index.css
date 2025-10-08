@@ -1,0 +1,222 @@
+*{
+    /* border: 1px solid purple;
+    margin: 10px;
+    padding: 10px; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.para1{
+    color: gold;
+    background-color: black;
+    padding: 10px;
+}
+
+body{
+    /* background-color: gainsboro; */
+    /* background-image: url('https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?cs=srgb&dl=pexels-felixmittermeier-957061.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+    background-position: bottom right; */
+}
+
+li{
+    color: blue;
+}
+
+h3{
+    color: green;
+}
+
+.para2{
+    color: white;
+    background-color: blue;
+}
+
+#h3{
+    color: cyan;
+    background-color: darkgreen;
+}
+/* #footer{
+    color: purple;
+} */
+
+[id='footer']{
+    color: purple;
+}
+
+[title ='Heading 5']{
+    color: lime;
+}
+.numbers{
+    margin: 20px;
+}
+/* .one{
+    border: 1px solid black;
+   padding: 10px;
+}
+.two{
+    border: 1px solid black;
+   padding: 10px;
+} */
+
+.numbers .two{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.fruits li{
+    padding: 10px;
+    border: 1px dashed black;
+
+}
+
+.fruits li:hover{
+    background-color: black;
+    color: white;
+}
+
+.news{
+    margin: 20px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news .news-para1::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: chocolate;
+    font-style: italic;
+}
+
+.news h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+
+.i{
+    color: red;
+}
+
+.icons i{
+    color: gold;
+    font-size: 30px;
+}
+
+i{
+    color: blue;
+}
+
+.shadow{
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px black;
+    text-align: right;
+}
+
+.ball{
+    width: 50%;
+    height: 500px;
+    background-image: url('../images/WhatsApp\ Image\ 2024-06-14\ at\ 2.08.05\ PM.jpeg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    margin: auto;
+    background-position: center;
+
+}
+/* relative position */
+/*  */
+.relative{
+    height: 200px;
+    width: 100%;
+    border: gray dashed 2px;
+    /* position: relative; */
+    /* bottom: 40px;
+    left: 20px; */
+}
+/* abosolute */
+.parent{
+    position: relative;
+}
+.parent .child{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.fixed{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+
+.fixed a{
+    color: white;
+    line-height: 50px;
+    
+}
+
+nav{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+/* z index */
+.cards{
+    height: 200px;
+    max-width: 1920px;
+    border: 10px groove black;
+    /* margin: 20px; */
+    position: relative;
+}
+
+.cards .red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    left: 50px;
+}
+.cards .blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 20px;
+
+}
+.cards .purple{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 3;
+}
+

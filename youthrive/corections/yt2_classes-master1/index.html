@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css</title>
+    <!-- 
+      internal css uses style tag not style attribute
+    -->
+    <!-- <style>
+        *{
+            /* border: 1px solid purple;
+            margin: 10px;
+            padding: 10px; */
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        p{
+            color: gold;
+            background-color: black;
+            padding: 10px;
+        }
+      </style> -->
+    <!-- external css: no style tag or attribute -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+      .i {
+        color: blue;
+      }
+    </style>
+    <!-- coustom font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. In iste aperiam
+      atque repellendus repellat! Accusantium rerum eveniet a asperiores unde.
+    </p>
+    <header id="up">
+      <nav>nav</nav>
+      <a href="#down">Down</a>
+    </header>
+    <main>
+      <!-- for inline css you use the style attribuite -->
+      <!-- 
+         <tagname attributes> text </tagName>
+            attribute(attribute='value');
+
+         -->
+      <h1 style="color: red; border: 1px solid green">main page contents</h1>
+      <h2>Heading</h2>
+      <p class="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+        inventore nesciunt ipsam pariatur deserunt perspiciatis fuga! Non quos
+        earum iusto consectetur atque rerum provident rem itaque quibusdam
+        exercitationem? Saepe, architecto!
+      </p>
+      <h2>Heading</h2>
+      <p class="para1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+        labore.
+      </p>
+      <h2>Heading</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVACRIPT</li>
+      </ol>
+      <h2 class="para2">Heading 2</h2>
+
+      <h3 id="h3">Heading 3</h3>
+      <p class="para2">This is a Heading paragraph</p>
+      <h4>Heading 4</h4>
+      <h5 title="Heading 5">Heading 5</h5>
+      <!-- 
+        color:red; is a style rule
+
+        color is the css propertyName
+        red is the value
+         
+        -->
+      <div class="numbers">
+        <span class="one">One</span>
+        <span class="two">Two</span>
+      </div>
+
+      <div class="fruits">
+        <ol>
+          <li class="one">Apple</li>
+          <li class="two">Banana</li>
+          <li class="three">Orange</li>
+        </ol>
+      </div>
+
+      <div class="news">
+        <h3>Abstract</h3>
+        <p class="news-para1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad
+          quos beatae corporis dolore aut praesentium. Architecto, ut? Ipsa
+          asperiores deleniti, voluptates ipsum inventore eum in eveniet fugit
+          est quia.
+        </p>
+        <p>
+          Borem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad
+          quos beatae corporis dolore aut praesentium. Architecto, ut? Ipsa
+          asperiores deleniti, voluptates ipsum inventore eum in eveniet fugit
+          est quia.
+        </p>
+        <h4>New Heading</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis
+          sint fuga dolore adipisci recusandae, exercitationem omnis veritatis!
+          Hic qui eligendi architecto inventore quasi alias fuga eius, aliquid
+          dolores aperiam.
+        </p>
+      </div>
+
+      <i class="i">icon</i>
+
+      <div class="icons">
+        <i>icon1</i>
+        <i>icon2</i>
+        <i>icon3</i>
+      </div>
+
+      <div class="shadow">shadow</div>
+
+      <!-- bg image -->
+      <div class="ball"></div>
+      <!-- relative -->
+      <div class="relative">
+        <div class="child">relative</div>
+      </div>
+      <!-- absolute -->
+      <div class="parent relative">
+        <div class="child">Absolute</div>
+      </div>
+
+      <div class="fixed">
+        <a href="#up">Top</a>
+      </div>
+
+      <!-- z index -->
+      <div class="cards">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="purple"></div>
+      </div>
+    </main>
+    <footer id="footer">footer <span id="down">Down</span></footer>
+  </body>
+</html>

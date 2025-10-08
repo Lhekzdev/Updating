@@ -1,0 +1,162 @@
+body{
+   
+    background-color: #C4C4C4;
+    
+
+}
+.boxb{  
+   
+    
+    padding-left: 300px;
+    gap:8px;
+
+
+}
+
+
+.key{
+  
+    padding-left: 3px;
+    gap:8px;
+   
+   
+    font-family: Montserrat;
+font-size: 17px;
+font-weight: 700;
+line-height: 20.72px;
+text-align: center;
+
+    
+}
+
+
+
+
+
+.contact{
+  
+gap:10px;
+float:right;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    text-align: center;
+    
+
+}
+
+h6{
+    font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 46.96px;
+text-align: center;
+
+
+
+}
+h2{
+    font-family: Raleway;
+font-size: 80px;
+font-weight: 700;
+line-height: 93.92px;
+text-align: center;
+
+}
+.logo{
+    width: 35.03px 8.35px;
+
+
+}
+p {
+   
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 17.58px;
+text-align: justified;
+
+
+
+}
+h3{
+
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 36.57px;
+letter-spacing: 0.1854em;
+text-align: left;
+font-family: Montserrat;
+
+
+
+}
+.box1{font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: justified;
+    
+    color: #FFFFFF;
+    background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    border: 2px solid #FFFFFF
+    }
+
+  
+
+
+
+    button{
+        font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.29px;
+text-align: center;
+
+    }
+
+  
+
+    h4 {
+        position:absolute;
+        margin-top: -100px;
+        
+        font-family: Roboto;
+         font-size: 15px;
+
+    }
+    .userimage {
+        display: grid;
+       width: 450px;
+       height: 500px;
+       
+    }
+
+    p {
+        font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.29px;
+text-align: center;
+    }
+    .small{
+        font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.29px;
+text-align: center;
+
+
+    }
+    .skills >h3 {
+        font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 38.37px;
+letter-spacing: 0.3554em;
+text-align: center;
+border: 8px solid #000000
+
+    }
